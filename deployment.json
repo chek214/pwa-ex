@@ -1,5 +1,5 @@
 {
-  "project": "name",
+  "project": "pwa",
   "port": 80,
   "devUrl": "nip.io",
   "qaUrl": "nip.io",
