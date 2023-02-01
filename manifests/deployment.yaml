@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{NAME}}
+  namespace: {{NAMESPACE}}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{NAME}}
+  template:
+    metadata:
+      labels:
+        app: {{NAME}}
+    spec:
+      nodeSelector:
+        "kubernetes.io/os": linux
+      containers:
+      - name: {{NAME}}
+        image: {{ACR}}/{{NAME}}-{{PROJECT}}-{{BRANCH}}:{{TAG}}
+        imagePullPolicy: Always
+        ports:
+        - containerPort: {{PORT}}
+          name: {{NAME}}
