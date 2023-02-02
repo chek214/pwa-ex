@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>PWA yeah!</h1>
+    <h1>Thats it!</h1>
   </div>
 </template>
 
