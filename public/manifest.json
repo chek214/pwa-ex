@@ -1,6 +1,6 @@
 {
-    "name": "Whoa",
-    "short_name": "Whoa",
+    "name": "Music Game",
+    "short_name": "Music Game",
     "icons": [{
       "src": "/128.png",
         "sizes": "128x128",
@@ -28,6 +28,6 @@
       }],
     "start_url": "./home",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#ffffff"
+    "background_color": "#2B0632",
+    "theme_color": "#2B0632"
   }

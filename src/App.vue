@@ -5,15 +5,10 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="/512.png" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="Whoa!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+      <HelloWorld msg="" />
+      <img src="/game.jpg">
     </div>
   </header>
 
