@@ -1,6 +1,6 @@
 {
-    "name": "Music Game",
-    "short_name": "Music Game",
+    "name": "Musicpoly",
+    "short_name": "Musicpoly",
     "icons": [{
       "src": "/128.png",
         "sizes": "128x128",
